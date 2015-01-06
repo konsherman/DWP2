@@ -15,8 +15,50 @@
 // console.log(evens);
 
 
-var name = prompt("Made up name"); //prompting user for a "made up name"
-var 
+// var name = prompt("Made up name"); //prompting user for a "made up name"
+// var age = prompt("Random number");
+// var color = prompt("Random Color");
+// var year = prompt("Your birth year");
+// var food = prompt("Fav food");
+// var weight = prompt("Weight");
+// var length = prompt("Random Lenght");
+// var width = prompt("Randome widht");
+
+// if (weight>200){
+//	console.log ("You're fat");
+// }else{
+//	console.log("Youre not fat");
+// };
+
+// function area(l,w){
+//	var pArea = l*w;
+//	return pArea;
+// }
+
+// console.log(area(length,width));
+
+var favName1 = prompt("Boy name");
+var favName2 = prompt("Girl Name");
+var favName3 = prompt("Cat name");
+
+var favNames = [favName1,favName2,favName3];
+
+
+
+
+
+//loop
+for(var i = 0; i<favNames.length;i++){
+	console.log(favNames[i]);
+
+}
+
+//object 
+// var car = {color:color,year:year};
+
+
+
+
 
 
 
