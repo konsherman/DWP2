@@ -25,16 +25,20 @@ var length = prompt("Random Lenght");
 var width = prompt("Randome widht");
 //-------END PROMPTS--------------
 
+//conditional
 if (weight>200){
 	console.log ("You're fat");
 }else{
 	console.log("Youre not fat");
 };
+//------------
 
+//function
 function area(l,w){
 	var pArea = l*w;
 	return pArea;
 }
+//--------
 
 console.log(area(length,width));
 
@@ -48,11 +52,14 @@ var favNames = [favName1,favName2,favName3];
 
 
 
-//loop
+//--------loop
 for(var i = 0; i<favNames.length;i++){
 	console.log(favNames[i]);
 
 }
+//-------
+
+
 
 // object 
 var car = {color:color,year:year};
