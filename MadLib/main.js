@@ -14,28 +14,29 @@
 // var evens = evenNumber([4,4,5,4,7])
 // console.log(evens);
 
+//--------PROMPTS----------------
+var name = prompt("Made up name"); //prompting user for a "made up name"
+var age = prompt("Random number");
+var color = prompt("Random Color");
+var year = prompt("Your birth year");
+var food = prompt("Fav food");
+var weight = prompt("Weight");
+var length = prompt("Random Lenght");
+var width = prompt("Randome widht");
+//-------END PROMPTS--------------
 
-// var name = prompt("Made up name"); //prompting user for a "made up name"
-// var age = prompt("Random number");
-// var color = prompt("Random Color");
-// var year = prompt("Your birth year");
-// var food = prompt("Fav food");
-// var weight = prompt("Weight");
-// var length = prompt("Random Lenght");
-// var width = prompt("Randome widht");
+if (weight>200){
+	console.log ("You're fat");
+}else{
+	console.log("Youre not fat");
+};
 
-// if (weight>200){
-//	console.log ("You're fat");
-// }else{
-//	console.log("Youre not fat");
-// };
+function area(l,w){
+	var pArea = l*w;
+	return pArea;
+}
 
-// function area(l,w){
-//	var pArea = l*w;
-//	return pArea;
-// }
-
-// console.log(area(length,width));
+console.log(area(length,width));
 
 var favName1 = prompt("Boy name");
 var favName2 = prompt("Girl Name");
@@ -53,8 +54,8 @@ for(var i = 0; i<favNames.length;i++){
 
 }
 
-//object 
-// var car = {color:color,year:year};
+// object 
+var car = {color:color,year:year};
 
 
 
