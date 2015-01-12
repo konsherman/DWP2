@@ -25,22 +25,24 @@ else:
     print "Perfect"
 #end if
 
-
+#function
 def area(l, w):
     area = l*w
     return area
 
-
+#end funciton
+#length and width that will be pushed into the function
 length = int(raw_input("Lenght"))
 width = int(raw_input("Width"))
 
-# print area(length,width)
 
+#dictionary
 food = dict()
 foods = {"1":'Pizza','2':'Hamburgers'}
 selection = raw_input("Enter number 1 or 2")
+#end dict
 
-
+#printing the completed "madlib"
 print name1, name2, "weighed",weight, "lbs. The area of his house was ",area(length, width),"he liked ",foods[selection]
 
 
