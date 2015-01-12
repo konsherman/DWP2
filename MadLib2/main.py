@@ -1,8 +1,7 @@
 
-for i in range(10, 0):
+for i in range(5):
+    print "COUNT DOWN"
     print i
-
-
 
 name1 = raw_input("First name")
 name2 = raw_input("Last name")
